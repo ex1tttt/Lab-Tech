@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LABtech – Kompetencje cyfrowe i technologiczne</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo">LAB<span>tech</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">O programie</a></li>
+          <li><a href="#why">Dlaczego LABtech</a></li>
+          <li><a href="#areas">Kompetencje</a></li>
+          <li><a href="#format">Forma</a></li>
+          <li><a href="#business">Współpraca</a></li>
+          <li><a href="#mission">Misja</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Zmień motyw">
+        <svg class="t-icon t-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="t-icon t-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+      <button class="burger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">Program edukacyjny</div>
+      <h1>LABtech – Kompetencje cyfrowe i technologiczne dla&nbsp;młodego pokolenia</h1>
+      <p class="hero-lead">
+        LABtech to program edukacyjny rozwijający kompetencje cyfrowe, technologiczne i medialne młodych ludzi.
+      </p>
+      <p class="hero-text">
+        Program przygotowuje uczniów do funkcjonowania w nowoczesnej gospodarce kształtowanej przez sztuczną inteligencję, dane, automatyzację oraz technologie komunikacyjne.
+      </p>
+      <p class="hero-text">
+        Poprzez warsztaty praktyczne, pracę projektową oraz wykorzystanie realnych narzędzi technologicznych uczestnicy uczą się, jak działa technologia, jak z nią współpracować oraz jak wykorzystywać ją w sposób odpowiedzialny w edukacji, biznesie i życiu codziennym.
+      </p>
+      <div class="hero-cta">
+        <a href="#about" class="btn btn-primary">Poznaj program</a>
+        <a href="#areas" class="btn btn-outline">Obszary kompetencji</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <section class="section section-light" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Inicjatywa</span>
+        <h2>O programie LABtech</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            LABtech to inicjatywa edukacyjna skoncentrowana na technologii, która pomaga młodym ludziom <strong>rozumieć, wykorzystywać i współtworzyć</strong> nowoczesne rozwiązania technologiczne, zamiast jedynie z nich korzystać.
+          </p>
+          <p>
+            Program powstał jako naturalne rozszerzenie działań <strong>LABgeneral</strong> – platformy łączącej edukację i biznes.
+          </p>
+          <p>
+            Podczas gdy LABgeneral koncentruje się na komunikacji, przywództwie i pracy zespołowej, LABtech skupia się na kompetencjach cyfrowych, technologii oraz praktycznej pracy z narzędziami wykorzystywanymi w nowoczesnej gospodarce.
+          </p>
+        </div>
+        <div class="about-cards">
+          <div class="info-card">
+            <div class="info-card-icon">🎓</div>
+            <h3>Edukacja</h3>
+            <p>Warsztaty praktyczne i praca projektowa z realnymi narzędziami</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🤖</div>
+            <h3>Technologia</h3>
+            <p>AI, automatyzacja, media cyfrowe i analiza danych</p>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🏢</div>
+            <h3>Biznes</h3>
+            <p>Współpraca z partnerami branżowymi i spotkania z ekspertami</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="why">
+    <div class="container">
+      <div class="section-header section-header-light">
+        <span class="section-tag section-tag-light">Motywacja</span>
+        <h2>Dlaczego powstał LABtech</h2>
+      </div>
+      <p class="why-lead">
+        Technologia zmienia świat pracy szybciej niż kiedykolwiek wcześniej. Sztuczna inteligencja, automatyzacja, media cyfrowe i analiza danych stają się podstawowymi kompetencjami w wielu branżach. Jednocześnie młodzi ludzie bardzo często korzystają z technologii jedynie w sposób konsumencki.
+      </p>
+      <h3 class="help-title">LABtech pomaga uczniom:</h3>
+      <ul class="benefit-list">
+        <li>
+          <div class="benefit-icon">✓</div>
+          <span>Rozwijać praktyczne kompetencje cyfrowe</span>
+        </li>
+        <li>
+          <div class="benefit-icon">✓</div>
+          <span>Rozumieć i świadomie wykorzystywać sztuczną inteligencję</span>
+        </li>
+        <li>
+          <div class="benefit-icon">✓</div>
+          <span>Poznawać zastosowania technologii w biznesie i przemyśle</span>
+        </li>
+        <li>
+          <div class="benefit-icon">✓</div>
+          <span>Przygotowywać się do przyszłych ścieżek edukacyjnych i zawodowych</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section-light" id="areas">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Curriculum</span>
+        <h2>Główne obszary kompetencji</h2>
+      </div>
+      <div class="areas-grid">
+
+        <div class="area-card">
+          <div class="area-number">01</div>
+          <div class="area-icon">🎬</div>
+          <h3>Produkcja medialna i kompetencje cyfrowe</h3>
+          <p>
+            Uczestnicy uczą się pracy z nowoczesnymi narzędziami multimedialnymi, takimi jak <strong>Adobe Premiere Pro</strong>. Poznają podstawy montażu wideo, pracy z dźwiękiem i obrazem oraz budują własne cyfrowe portfolio.
+          </p>
+        </div>
+
+        <div class="area-card">
+          <div class="area-number">02</div>
+          <div class="area-icon">🧠</div>
+          <h3>Sztuczna inteligencja w praktyce</h3>
+          <p>
+            Uczniowie uczą się wykorzystywać narzędzia AI do wyszukiwania informacji, analizy danych, tworzenia treści oraz wspierania pracy projektowej. Program rozwija również umiejętność krytycznej analizy informacji.
+          </p>
+        </div>
+
+        <div class="area-card">
+          <div class="area-number">03</div>
+          <div class="area-icon">🤝</div>
+          <h3>Interakcja człowiek–technologia</h3>
+          <p>
+            Podczas zajęć uczestnicy pracują z elementami robotyki społecznej, w tym <strong>robotami animaloidalnymi</strong>, poznając podstawy interakcji człowiek–maszyna oraz działanie inteligentnych systemów.
+          </p>
+        </div>
+
+        <div class="area-card">
+          <div class="area-number">04</div>
+          <div class="area-icon">🏗️</div>
+          <h3>Praca projektowa</h3>
+          <p>
+            Uczniowie pracują w zespołach nad projektami technologicznymi, wykorzystując metody pracy projektowej oraz narzędzia takie jak <strong>LEGO® Serious Play®</strong>, które wspierają kreatywność i myślenie systemowe.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-accent" id="format">
+    <div class="container">
+      <div class="section-header section-header-light">
+        <span class="section-tag section-tag-light">Struktura</span>
+        <h2>Forma programu</h2>
+      </div>
+      <div class="format-content">
+        <div class="format-text">
+          <p>
+            LABtech realizowany jest w formie <strong>warsztatów technologicznych</strong> łączących pracę projektową, tworzenie treści cyfrowych oraz wykorzystanie narzędzi AI.
+          </p>
+          <p>
+            Uczestnicy kończą program z konkretnymi efektami pracy – <strong>materiałami multimedialnymi</strong> oraz rozwiniętymi kompetencjami cyfrowymi.
+          </p>
+        </div>
+        <div class="format-outcomes">
+          <div class="outcome-item">
+            <div class="outcome-dot"></div>
+            <span>Warsztaty praktyczne</span>
+          </div>
+          <div class="outcome-item">
+            <div class="outcome-dot"></div>
+            <span>Praca projektowa w zespołach</span>
+          </div>
+          <div class="outcome-item">
+            <div class="outcome-dot"></div>
+            <span>Tworzenie treści cyfrowych</span>
+          </div>
+          <div class="outcome-item">
+            <div class="outcome-dot"></div>
+            <span>Narzędzia AI</span>
+          </div>
+          <div class="outcome-item">
+            <div class="outcome-dot"></div>
+            <span>Cyfrowe portfolio ucznia</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-light" id="business">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Partnerstwo</span>
+        <h2>Współpraca z biznesem</h2>
+      </div>
+      <div class="business-layout">
+        <div class="business-text">
+          <p>
+            Program LABtech rozwijany jest we współpracy z <strong>partnerami biznesowymi</strong> zainteresowanymi wspieraniem rozwoju kompetencji technologicznych młodego pokolenia.
+          </p>
+          <p>
+            Dzięki temu uczniowie mogą poznawać realne środowisko pracy, spotykać się z ekspertami branżowymi oraz w przyszłości uczestniczyć w <strong>programach praktyk i staży</strong>.
+          </p>
+        </div>
+        <div class="business-highlights">
+          <div class="highlight-box">
+            <div class="highlight-icon">🌐</div>
+            <p>Realne środowisko pracy</p>
+          </div>
+          <div class="highlight-box">
+            <div class="highlight-icon">👔</div>
+            <p>Eksperci branżowi</p>
+          </div>
+          <div class="highlight-box">
+            <div class="highlight-icon">📋</div>
+            <p>Praktyki i staże</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-mission" id="mission">
+    <div class="container">
+      <div class="mission-inner">
+        <div class="section-header section-header-light">
+          <span class="section-tag section-tag-light">Wizja</span>
+          <h2>Misja</h2>
+        </div>
+        <blockquote class="mission-quote">
+          LABtech to przestrzeń, w której młodzi ludzie przechodzą od <em>konsumpcji</em> technologii do jej <em>świadomego tworzenia</em> i wykorzystywania.
+        </blockquote>
+        <p class="mission-text">
+          Program rozwija kompetencje, które będą kluczowe dla przyszłych inżynierów, liderów technologicznych, przedsiębiorców i twórców nowej gospodarki.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="footer-logo">LAB<span>tech</span></div>
+          <p class="footer-brand-desc">LABtech &ndash; Kompetencje cyfrowe i technologiczne</p>
+          <p class="footer-tagline">Rozwijamy kompetencje młodego pokolenia w praktyce i teorii.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Szybkie linki</h4>
+          <ul class="footer-links">
+            <li><a href="#about">O programie</a></li>
+            <li><a href="#why">Dlaczego LABtech</a></li>
+            <li><a href="#areas">Kompetencje</a></li>
+            <li><a href="#format">Forma programu</a></li>
+            <li><a href="#business">Współpraca</a></li>
+            <li><a href="#mission">Misja</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Kontakt</h4>
+          <ul class="footer-contact">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.07 6.07l.87-.87a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+48 570 800 890</span>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>zapisy@labtech.pl</span>
+            </li>
+          </ul>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook" class="footer-social">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" class="footer-social">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn" class="footer-social">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Polityka prywatności</h4>
+          <a href="#" class="footer-policy-link">Privacy Policy</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 LABtech &ndash; Kompetencje cyfrowe i technologiczne. Wszelkie prawa zastrzeżone.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
