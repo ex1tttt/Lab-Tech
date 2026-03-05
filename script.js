@@ -1,6 +1,6 @@
 const themeToggle = document.getElementById('themeToggle');
 
-const savedTheme = localStorage.getItem('labtech-theme') || 'dark';
+const savedTheme = localStorage.getItem('labtech-theme') || 'light';
 document.documentElement.setAttribute('data-theme', savedTheme);
 
 themeToggle.addEventListener('click', () => {

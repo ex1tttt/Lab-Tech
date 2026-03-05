@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="pl" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>document.documentElement.setAttribute('data-theme', localStorage.getItem('labtech-theme') || 'light');</script>
   <title>LABtech – Kompetencje cyfrowe i technologiczne</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,12 +18,12 @@
       <a href="#hero" class="logo">LAB<span>tech</span></a>
       <nav>
         <ul class="nav-links">
-          <li><a href="#about">O programie</a></li>
-          <li><a href="#why">Dlaczego LABtech</a></li>
+          <li><a href="#about">O nas</a></li>
+          <li><a href="#why">Nasza Misja</a></li>
           <li><a href="#areas">Kompetencje</a></li>
+          <li><a href="#business">Dla kogo</a></li>
           <li><a href="#format">Forma</a></li>
-          <li><a href="#business">Współpraca</a></li>
-          <li><a href="#mission">Misja</a></li>
+          <li><a href="#mission">Inicjatywy</a></li>
         </ul>
       </nav>
       <button class="theme-toggle" id="themeToggle" aria-label="Zmień motyw">
@@ -61,37 +62,33 @@
 
   <section class="section section-light" id="about">
     <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Inicjatywa</span>
-        <h2>O programie LABtech</h2>
-      </div>
-      <div class="about-grid">
-        <div class="about-text">
-          <p>
-            LABtech to inicjatywa edukacyjna skoncentrowana na technologii, która pomaga młodym ludziom <strong>rozumieć, wykorzystywać i współtworzyć</strong> nowoczesne rozwiązania technologiczne, zamiast jedynie z nich korzystać.
+      <div class="about-two-col">
+        <div class="about-left">
+          <div class="section-header">
+            <h2>O nas</h2>
+          </div>
+          <p class="about-tagline"><strong>Kompetencje. Projekty. Odkrywanie Siebie.</strong></p>
+          <p class="about-desc">
+            LABtech to całoroczny program edukacyjny oparty na 12 spotkaniach, podzielonych na 4 sezony. Uczniowie rozwijają praktyczne umiejętności technologiczne niezbędne we współczesnym świecie.
           </p>
-          <p>
-            Program powstał jako naturalne rozszerzenie działań <strong>LABgeneral</strong> – platformy łączącej edukację i biznes.
-          </p>
-          <p>
-            Podczas gdy LABgeneral koncentruje się na komunikacji, przywództwie i pracy zespołowej, LABtech skupia się na kompetencjach cyfrowych, technologii oraz praktycznej pracy z narzędziami wykorzystywanymi w nowoczesnej gospodarce.
-          </p>
+          <div class="skills-grid">
+            <div class="skill-tag"><span>🎬</span> Produkcja medialna</div>
+            <div class="skill-tag"><span>🧠</span> Sztuczna inteligencja</div>
+            <div class="skill-tag"><span>🤖</span> Robotyka</div>
+            <div class="skill-tag"><span>🏗️</span> Praca projektowa</div>
+            <div class="skill-tag"><span>💻</span> Programowanie</div>
+            <div class="skill-tag"><span>📊</span> Analiza danych</div>
+            <div class="skill-tag"><span>🎨</span> Kreatywność cyfrowa</div>
+            <div class="skill-tag"><span>🌐</span> Myślenie systemowe</div>
+          </div>
         </div>
-        <div class="about-cards">
-          <div class="info-card">
-            <div class="info-card-icon">🎓</div>
-            <h3>Edukacja</h3>
-            <p>Warsztaty praktyczne i praca projektowa z realnymi narzędziami</p>
-          </div>
-          <div class="info-card">
-            <div class="info-card-icon">🤖</div>
-            <h3>Technologia</h3>
-            <p>AI, automatyzacja, media cyfrowe i analiza danych</p>
-          </div>
-          <div class="info-card">
-            <div class="info-card-icon">🏢</div>
-            <h3>Biznes</h3>
-            <p>Współpraca z partnerami branżowymi i spotkania z ekspertami</p>
+        <div class="about-right">
+          <div class="about-photo-card">
+            <div class="about-photo-inner">
+              <div class="about-photo-icon">👩‍💻</div>
+              <div class="about-photo-icon">👨‍💻</div>
+            </div>
+            <div class="about-photo-badge">12 spotkań · 4 sezony</div>
           </div>
         </div>
       </div>
@@ -100,32 +97,32 @@
 
   <section class="section section-dark" id="why">
     <div class="container">
-      <div class="section-header section-header-light">
-        <span class="section-tag section-tag-light">Motywacja</span>
-        <h2>Dlaczego powstał LABtech</h2>
+      <div class="section-header">
+        <h2>Nasza Misja</h2>
       </div>
-      <p class="why-lead">
-        Technologia zmienia świat pracy szybciej niż kiedykolwiek wcześniej. Sztuczna inteligencja, automatyzacja, media cyfrowe i analiza danych stają się podstawowymi kompetencjami w wielu branżach. Jednocześnie młodzi ludzie bardzo często korzystają z technologii jedynie w sposób konsumencki.
+      <p class="mission-lead">
+        Wierzymy, że <em>technologia</em> i <em>praktyczne umiejętności</em> otwierają przed młodymi ludźmi drzwi do przyszłości. LABtech powstał, aby uczniowie mogli nie tylko korzystać z technologii, ale ją <strong>rozumieć</strong> i <strong>świadomie tworzyć</strong>.
       </p>
-      <h3 class="help-title">LABtech pomaga uczniom:</h3>
-      <ul class="benefit-list">
-        <li>
-          <div class="benefit-icon">✓</div>
-          <span>Rozwijać praktyczne kompetencje cyfrowe</span>
-        </li>
-        <li>
-          <div class="benefit-icon">✓</div>
-          <span>Rozumieć i świadomie wykorzystywać sztuczną inteligencję</span>
-        </li>
-        <li>
-          <div class="benefit-icon">✓</div>
-          <span>Poznawać zastosowania technologii w biznesie i przemyśle</span>
-        </li>
-        <li>
-          <div class="benefit-icon">✓</div>
-          <span>Przygotowywać się do przyszłych ścieżek edukacyjnych i zawodowych</span>
-        </li>
-      </ul>
+      <div class="mission-features">
+        <div class="mission-feature">
+          <div class="mission-feature-icon">🤖</div>
+          <h3>Technologia</h3>
+          <p>Rozwijamy kompetencje cyfrowe, które są kluczowe w nowoczesnej, cyfrowej gospodarce.</p>
+        </div>
+        <div class="mission-feature">
+          <div class="mission-feature-icon">🔧</div>
+          <h3>Praktyka</h3>
+          <p>Uczestnicy pracują z realnymi narzędziami i realizują własne projekty technologiczne.</p>
+        </div>
+        <div class="mission-feature">
+          <div class="mission-feature-icon">🚀</div>
+          <h3>Przyszłość</h3>
+          <p>Przygotowujemy młodych ludzi do wyzwań rynku pracy i nowoczesnej gospodarki.</p>
+        </div>
+      </div>
+      <div class="mission-cta">
+        <a href="#about" class="btn-join">DOŁĄCZ DO NAS</a>
+      </div>
     </div>
   </section>
 
@@ -220,50 +217,81 @@
 
   <section class="section section-light" id="business">
     <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Partnerstwo</span>
-        <h2>Współpraca z biznesem</h2>
-      </div>
-      <div class="business-layout">
-        <div class="business-text">
-          <p>
-            Program LABtech rozwijany jest we współpracy z <strong>partnerami biznesowymi</strong> zainteresowanymi wspieraniem rozwoju kompetencji technologicznych młodego pokolenia.
-          </p>
-          <p>
-            Dzięki temu uczniowie mogą poznawać realne środowisko pracy, spotykać się z ekspertami branżowymi oraz w przyszłości uczestniczyć w <strong>programach praktyk i staży</strong>.
-          </p>
+      <div class="audience-grid">
+        <div class="audience-left">
+          <div class="section-header">
+            <h2>Dla kogo?</h2>
+          </div>
+          <p class="audience-lead">LABtech jest skierowany do:</p>
+          <ul class="audience-list">
+            <li>
+              <div class="audience-icon">👨‍🎓</div>
+              <div class="audience-item-text">
+                <strong>Uczniów</strong>
+                <p>szkół ponadpodstawowych (liceum, technikum)</p>
+              </div>
+            </li>
+            <li>
+              <div class="audience-icon">🎓</div>
+              <div class="audience-item-text">
+                <strong>Studentów</strong>
+                <p>wszystkich kierunków zainteresowanych technologią</p>
+              </div>
+            </li>
+            <li>
+              <div class="audience-icon">👩‍🏫</div>
+              <div class="audience-item-text">
+                <strong>Nauczycieli &amp; Wychowawców</strong>
+                <p>którzy chcą rozwijać kompetencje cyfrowe uczniów</p>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="business-highlights">
-          <div class="highlight-box">
-            <div class="highlight-icon">🌐</div>
-            <p>Realne środowisko pracy</p>
-          </div>
-          <div class="highlight-box">
-            <div class="highlight-icon">👔</div>
-            <p>Eksperci branżowi</p>
-          </div>
-          <div class="highlight-box">
-            <div class="highlight-icon">📋</div>
-            <p>Praktyki i staże</p>
+        <div class="audience-right">
+          <div class="promo-card">
+            <div class="promo-card-logo">LAB<strong>tech</strong></div>
+            <div class="promo-card-meta">
+              <span>12 spotkań</span>
+              <span class="promo-dot">&bull;</span>
+              <span>4 sezony</span>
+              <span class="promo-dot">&bull;</span>
+              <span>50 miesięcy</span>
+            </div>
+            <div class="promo-card-divider"></div>
+            <div class="promo-card-join">Zapraszamy!</div>
+            <div class="promo-card-sub">Kompetencje dla młodych</div>
+            <div class="promo-card-partners">
+              <span>🎓 SzkOły</span>
+              <span>🏗️ Firmy</span>
+              <span>🧑‍💼 Eksperci</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section section-mission" id="mission">
+  <section class="section section-accent" id="mission">
     <div class="container">
-      <div class="mission-inner">
-        <div class="section-header section-header-light">
-          <span class="section-tag section-tag-light">Wizja</span>
-          <h2>Misja</h2>
+      <div class="section-header" style="text-align:center;">
+        <h2>Nasze inicjatywy</h2>
+      </div>
+      <div class="initiatives-grid">
+        <div class="initiative-card">
+          <div class="initiative-icon">🏠</div>
+          <h3>Dni Otwarte LABtech</h3>
+          <p>Spotkania informacyjne i inspiracyjne dla szkół, firm i rodziców zainteresowanych programem.</p>
         </div>
-        <blockquote class="mission-quote">
-          LABtech to przestrzeń, w której młodzi ludzie przechodzą od <em>konsumpcji</em> technologii do jej <em>świadomego tworzenia</em> i wykorzystywania.
-        </blockquote>
-        <p class="mission-text">
-          Program rozwija kompetencje, które będą kluczowe dla przyszłych inżynierów, liderów technologicznych, przedsiębiorców i twórców nowej gospodarki.
-        </p>
+        <div class="initiative-card">
+          <div class="initiative-icon">📦</div>
+          <h3>Sezony rozwojowe</h3>
+          <p>Roczny cykl 12 warsztatów podzielonych na cztery sezony tematyczne gromadzące wiedzę.</p>
+        </div>
+        <div class="initiative-card">
+          <div class="initiative-icon">🏞️</div>
+          <h3>Obozy technologiczne</h3>
+          <p>Wyjazdy edukacyjne do miejsc pracy łączące wiedzę teoretyczną z praktycznym doświadczeniem.</p>
+        </div>
       </div>
     </div>
   </section>
