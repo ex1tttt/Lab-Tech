@@ -5,8 +5,8 @@
 }
 
 :root {
-  --clr-primary:   #D946EF;
-  --clr-primary-d: #C026D3;
+  --clr-primary:   #9c19b0;
+  --clr-primary-d: #9115a1;
   --clr-accent:    #F0ABFC;
   --clr-dark:      #0D0D0D;
   --clr-dark-2:    #141414;
@@ -246,7 +246,8 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(to right, #C8389C 0%, #B83DB8 40%, #9040CC 75%, #7B52D4 100%);
+  transition: background 0.4s ease, color 0.4s ease;
+  background: linear-gradient(to right, #9b2778 0%, #a722a7 40%, #7630ac 75%, #671aa7 100%);
   overflow: hidden;
   padding-top: 68px;
 }
@@ -1338,7 +1339,6 @@ body {
   line-height: 1.65;
 }
 
-/* ===== responsive fixes for new sections ===== */
 @media (max-width: 900px) {
   .about-two-col,
   .audience-grid {
