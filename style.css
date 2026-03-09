@@ -1362,3 +1362,10 @@ body {
   }
 }
 
+a {
+  text-decoration: none;
+}
+
+.footer-policy-link {
+  text-decoration: none;
+}
